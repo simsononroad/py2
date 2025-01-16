@@ -1,0 +1,531 @@
+[
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "elso_karakter",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "utolso_karakter",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "legkisebb",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "legnagyobb",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "osszeg",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "szorzat",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "parosok_szama",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "paratlanok_szama",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "pozitivok_szama",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "negativok_szama",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "benne_van_a_listaban",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "benne_van_a_stringben",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "kereses_a_listaban",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "kereses_a_stringben",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "parosok_kivalogatasa",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "paratlanok_kivalogatasa",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "pozitivok_kivalogatasa",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "negativok_kivalogatasa",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "lista_atlag",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "faktorialis",
+        "importPath": "p2",
+        "description": "p2",
+        "isExtraImport": true,
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "elso_karakter",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def elso_karakter(string):\n    \"\"\" \n    Visszatér a string első karakterével.\n    \"\"\"\n    return string[0]# YOUR CODE HERE\n    ...\n #--------------------------------------------------------------- \ndef utolso_karakter(string):\n    \"\"\" \n    Visszatér az adott string utolso karakterével.",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "utolso_karakter",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def utolso_karakter(string):\n    \"\"\" \n    Visszatér az adott string utolso karakterével.\n    \"\"\"\n    betu = \"\"\n    for i in string:\n        betu = i\n    return betu    \n#assert utolso_karakter(\"Hello\") == \"o\"\n#---------------------------------------------------------------",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "legkisebb",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def legkisebb(lista):\n    \"\"\" \n    Visszatér egy számokat tartalmazó lista legkisebb számával.\n    A feladat megoldása során nem használhatod a min() függvényt!\n    \"\"\"\n    smallest = None\n    for elem in lista:\n        if smallest == None:\n            smallest = elem\n            continue",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "legnagyobb",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def legnagyobb(lista):\n    \"\"\" \n    Visszatér egy számokat tartalmazó lista legnagyobb számával.\n    A feladat megoldása során nem használhatod a max függvényt!\n    \"\"\"\n    bigger = None\n    for elem in lista:\n        if bigger == None:\n            bigger = elem\n            continue",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "osszeg",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def osszeg(lista):\n    \"\"\" \n    Visszatér egy számokat tartalmazó lista számainak összegével.\n    A feladat megoldása során nem használhatod a sum() függvényt!\n    \"\"\"\n    szamolas = 0\n    for elem in lista:\n        szamolas += elem\n    return szamolas\n#assert osszeg( [1, 2, 3, 4, 5, 6] ) == 21",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "szorzat",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def szorzat(lista):\n    \"\"\" \n    Visszatér egy számokat tartalmazó lista számainak szorzatával.\n    \"\"\"\n    szamolas = lista[0]\n    for elem in range(1, len(lista)+1):\n        szamolas = szamolas * elem\n    return szamolas\nassert szorzat( [1, 2, 3, 4, 5] )  == 120\n#---------------------------------------------------------------",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "parosok_szama",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def parosok_szama(lista):\n    \"\"\" \n    Visszatér egy számokat tartalmazó lista páros számainak számával\n    \"\"\"\n    #Nem értem hogy pontosan listát vagy mit kéne visszaadnia\n#assert parosok_szama( [7, 4, 9, -4, -8, 3, 1] ) == 3\n#---------------------------------------------------------------\ndef paratlanok_szama(lista):\n    \"\"\" \n    Visszatér egy számokat tartalmazó lista páros számainak számával.",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "paratlanok_szama",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def paratlanok_szama(lista):\n    \"\"\" \n    Visszatér egy számokat tartalmazó lista páros számainak számával.\n    \"\"\"\n    #Nem értem hogy pontosan listát vagy mit kéne visszaadnia\n#assert paratlanok_szama( [7, 4, 9, -4, -8, 3, 1]) == 4\n#---------------------------------------------------------------  \ndef pozitivok_szama(lista):\n    \"\"\" \n    Visszatér egy számokat tartalmazó lista pozitív számainak számával.",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "pozitivok_szama",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def pozitivok_szama(lista):\n    \"\"\" \n    Visszatér egy számokat tartalmazó lista pozitív számainak számával.\n    \"\"\"\n    # YOUR CODE HERE\n    ...\n#assert pozitivok_szama( [-7, -4, 9, -4, -8, 3, 1, 0]) == 3\n#---------------------------------------------------------------  \ndef negativok_szama(lista):\n    \"\"\" ",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "negativok_szama",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def negativok_szama(lista):\n    \"\"\" \n    Visszatér egy számokat tartalmazó lista negativ számainak számával.\n    \"\"\"\n    # YOUR CODE HERE\n    ...\n#assert negativok_szama( [-7, -4, 9, -4, -8, 3, 1, 0]) == 4\n#---------------------------------------------------------------  \ndef benne_van_a_listaban(lista, szam):\n    \"\"\"",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "benne_van_a_listaban",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def benne_van_a_listaban(lista, szam):\n    \"\"\"\n    A visszatérési érték True, ha  a szám benne van a listában.\n    A visszatérési érték False, ha  a szám nics benne a listában.\n    \"\"\"\n    listak = \"\"\n    szam = str(szam)\n    for elem in lista:\n        listak += f\"{elem}, \"\n    listak = listak[:-2]",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "benne_van_a_stringben",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def benne_van_a_stringben(string, betu):\n    \"\"\"\n    A visszatérési érték __True__, ha  a betü benne van a stringben.\n    A visszatérési érték __False__, ha  a betü nics benne a stringben.\n    \"\"\"\n    if betu in string:\n        return True\n    elif betu not in string:\n        return False\n#assert benne_van_a_stringben(\"abrakadabra\", \"x\") == False",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "kereses_a_listaban",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def kereses_a_listaban(lista, szam):\n    \"\"\"\n    A visszatérési érték a paraméterként megadott szám első előfordulási helye a listában.\n    A visszatérési érték None, ha  a szám nics benne a listában.\n    \"\"\"\n#assert kereses_a_listaban([-7, -4, 9, -4, -8, 3, 1, 0], -7) == 0\n#assert kereses_a_listaban([-7, -4, 9, -4, -8, 3, 1, 0],  9) == 2\n#assert kereses_a_listaban([-7, -4, 9, -4, -8, 3, 1, 0],  2) == None\n#---------------------------------------------------------------\ndef kereses_a_stringben(string, betu):",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "kereses_a_stringben",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def kereses_a_stringben(string, betu):\n    \"\"\"\n    Visszatérési érték a paraméterként megadott betü első előfordulási helye a stringben. \n    A visszatérési érték None, ha  a betü nics benne a stringben.\n    \"\"\"\n    # YOUR CODE HERE\n    ...\n#assert kereses_a_stringben(\"abrakadabra\", \"a\") == 0\n#assert kereses_a_stringben(\"abrakadabra\", \"k\") == 4\n#assert kereses_a_stringben(\"abrakadabra\", \"s\") == None",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "parosok_kivalogatasa",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def parosok_kivalogatasa(lista):\n    \"\"\"\n    Visszatér egy listával, \n        amely a paraméterként átadott számokat tartalmazó lista páros számait tartalmazza.\n    \"\"\"\n    # YOUR CODE HERE\n    ...\n#assert parosok_kivalogatasa( [7, 4, 9, 4, 8, 3, 1, 12, 0] ) == [4, 4, 8, 12, 0]\n#---------------------------------------------------------------\ndef paratlanok_kivalogatasa(lista):",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "paratlanok_kivalogatasa",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def paratlanok_kivalogatasa(lista):\n    \"\"\"\n    Visszatér egy listával, \n        amely a paraméterként átadott számokat tartalmazó lista páratlan számait tartalmazza.\n    \"\"\"\n    # YOUR CODE HERE\n    ...\n#assert paratlanok_kivalogatasa( [7, 4, 9, 4, 8, 3, 1, 12, 0] ) == [7, 9, 3, 1]\n#---------------------------------------------------------------\ndef pozitivok_kivalogatasa(lista):",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "pozitivok_kivalogatasa",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def pozitivok_kivalogatasa(lista):\n    \"\"\" \n    Visszatér egy listával, \n        amely a paraméterként átadott számokat tartalmazó lista pozitiv számait tartalmazza. \n    \"\"\"\n    # YOUR CODE HERE\n    ...\n#assert pozitivok_kivalogatasa( [7, 4, 9, -4, -8, 3, 1, 12, 0] ) == [7, 4, 9, 3, 1, 12]\n#---------------------------------------------------------------\ndef negativok_kivalogatasa(lista):",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "negativok_kivalogatasa",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def negativok_kivalogatasa(lista):\n    \"\"\"\n    Visszatér egy listával, \n      amely a paraméterként átadott számokat tartalmazó lista negatív számait tartalmazza.\n    \"\"\"\n    # YOUR CODE HERE\n    ...\n#assert negativok_kivalogatasa( [7, 4, 9, -4, -8, 3, 1, 12, 0] ) == [-4, -8]\n#---------------------------------------------------------------\ndef lista_atlag(lista):",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "lista_atlag",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def lista_atlag(lista):\n    \"\"\" \n    Visszatér egy számokat tartalmazó lista számainak átlagával.\n    \"\"\"\n    # YOUR CODE HERE    \n    ...\n#assert lista_atlag([1, 2, 3, 4, 5, 6]) == 21/6\n#---------------------------------------------------------------\ndef faktorialis(n):\n    \"\"\" visszatér a paraméterként megkapott szám faktoriálisával.",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "faktorialis",
+        "kind": 2,
+        "importPath": "p2",
+        "description": "p2",
+        "peekOfCode": "def faktorialis(n):\n    \"\"\" visszatér a paraméterként megkapott szám faktoriálisával.\n    \"\"\"\n    # YOUR CODE HERE\n    ...\n#assert  faktorialis(0) == 1\n#assert  faktorialis(1) == 1\n#assert  faktorialis(2) == 1 * 2\n#assert  faktorialis(5) == 1 * 2 * 3 * 4 * 5\n#---------------------------------------------------------------",
+        "detail": "p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_elso_karakter",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_elso_karakter():\n    assert elso_karakter(\"Hello\") == \"H\"\n    assert elso_karakter(\"\") is None\ndef test_utolso_karakter():\n    assert utolso_karakter(\"Hello\") == \"o\"\n    assert utolso_karakter(\"\") is None\ndef test_legkisebb():\n    assert legkisebb([7, 4, 9, -4, -8, 3]) == -8\n    assert legkisebb([]) is None\ndef test_legnagyobb():",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_utolso_karakter",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_utolso_karakter():\n    assert utolso_karakter(\"Hello\") == \"o\"\n    assert utolso_karakter(\"\") is None\ndef test_legkisebb():\n    assert legkisebb([7, 4, 9, -4, -8, 3]) == -8\n    assert legkisebb([]) is None\ndef test_legnagyobb():\n    assert legnagyobb([7, 4, 9, -4, -8, 3]) == 9\n    assert legnagyobb([]) is None\ndef test_osszeg():",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_legkisebb",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_legkisebb():\n    assert legkisebb([7, 4, 9, -4, -8, 3]) == -8\n    assert legkisebb([]) is None\ndef test_legnagyobb():\n    assert legnagyobb([7, 4, 9, -4, -8, 3]) == 9\n    assert legnagyobb([]) is None\ndef test_osszeg():\n    assert osszeg([1, 2, 3, 4, 5, 6]) == 21\n    assert osszeg([]) == 0\ndef test_szorzat():",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_legnagyobb",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_legnagyobb():\n    assert legnagyobb([7, 4, 9, -4, -8, 3]) == 9\n    assert legnagyobb([]) is None\ndef test_osszeg():\n    assert osszeg([1, 2, 3, 4, 5, 6]) == 21\n    assert osszeg([]) == 0\ndef test_szorzat():\n    assert szorzat([1, 2, 3, 4, 5]) == 120\n    assert szorzat([]) == 1\ndef test_parosok_szama():",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_osszeg",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_osszeg():\n    assert osszeg([1, 2, 3, 4, 5, 6]) == 21\n    assert osszeg([]) == 0\ndef test_szorzat():\n    assert szorzat([1, 2, 3, 4, 5]) == 120\n    assert szorzat([]) == 1\ndef test_parosok_szama():\n    assert parosok_szama([7, 4, 9, -4, -8, 3, 1]) == 3\n    assert parosok_szama([]) == 0\ndef test_paratlanok_szama():",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_szorzat",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_szorzat():\n    assert szorzat([1, 2, 3, 4, 5]) == 120\n    assert szorzat([]) == 1\ndef test_parosok_szama():\n    assert parosok_szama([7, 4, 9, -4, -8, 3, 1]) == 3\n    assert parosok_szama([]) == 0\ndef test_paratlanok_szama():\n    assert paratlanok_szama([7, 4, 9, -4, -8, 3, 1]) == 4\n    assert paratlanok_szama([]) == 0\ndef test_pozitivok_szama():",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_parosok_szama",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_parosok_szama():\n    assert parosok_szama([7, 4, 9, -4, -8, 3, 1]) == 3\n    assert parosok_szama([]) == 0\ndef test_paratlanok_szama():\n    assert paratlanok_szama([7, 4, 9, -4, -8, 3, 1]) == 4\n    assert paratlanok_szama([]) == 0\ndef test_pozitivok_szama():\n    assert pozitivok_szama([-7, -4, 9, -4, -8, 3, 1, 0]) == 3\n    assert pozitivok_szama([]) == 0\ndef test_negativok_szama():",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_paratlanok_szama",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_paratlanok_szama():\n    assert paratlanok_szama([7, 4, 9, -4, -8, 3, 1]) == 4\n    assert paratlanok_szama([]) == 0\ndef test_pozitivok_szama():\n    assert pozitivok_szama([-7, -4, 9, -4, -8, 3, 1, 0]) == 3\n    assert pozitivok_szama([]) == 0\ndef test_negativok_szama():\n    assert negativok_szama([-7, -4, 9, -4, -8, 3, 1, 0]) == 4\n    assert negativok_szama([]) == 0\ndef test_benne_van_a_listaban():",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_pozitivok_szama",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_pozitivok_szama():\n    assert pozitivok_szama([-7, -4, 9, -4, -8, 3, 1, 0]) == 3\n    assert pozitivok_szama([]) == 0\ndef test_negativok_szama():\n    assert negativok_szama([-7, -4, 9, -4, -8, 3, 1, 0]) == 4\n    assert negativok_szama([]) == 0\ndef test_benne_van_a_listaban():\n    assert benne_van_a_listaban([-7, -4, 9, -4, -8, 3, 1, 0], 2) == False\n    assert benne_van_a_listaban([-7, -4, 9, -4, -8, 3, 1, 0], 9) == True\ndef test_benne_van_a_stringben():",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_negativok_szama",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_negativok_szama():\n    assert negativok_szama([-7, -4, 9, -4, -8, 3, 1, 0]) == 4\n    assert negativok_szama([]) == 0\ndef test_benne_van_a_listaban():\n    assert benne_van_a_listaban([-7, -4, 9, -4, -8, 3, 1, 0], 2) == False\n    assert benne_van_a_listaban([-7, -4, 9, -4, -8, 3, 1, 0], 9) == True\ndef test_benne_van_a_stringben():\n    assert benne_van_a_stringben(\"abrakadabra\", \"x\") == False\n    assert benne_van_a_stringben(\"abrakadabra\", \"d\") == True\ndef test_kereses_a_listaban():",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_benne_van_a_listaban",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_benne_van_a_listaban():\n    assert benne_van_a_listaban([-7, -4, 9, -4, -8, 3, 1, 0], 2) == False\n    assert benne_van_a_listaban([-7, -4, 9, -4, -8, 3, 1, 0], 9) == True\ndef test_benne_van_a_stringben():\n    assert benne_van_a_stringben(\"abrakadabra\", \"x\") == False\n    assert benne_van_a_stringben(\"abrakadabra\", \"d\") == True\ndef test_kereses_a_listaban():\n    assert kereses_a_listaban([-7, -4, 9, -4, -8, 3, 1, 0], -7) == 0\n    assert kereses_a_listaban([-7, -4, 9, -4, -8, 3, 1, 0], 2) is None\ndef test_kereses_a_stringben():",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_benne_van_a_stringben",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_benne_van_a_stringben():\n    assert benne_van_a_stringben(\"abrakadabra\", \"x\") == False\n    assert benne_van_a_stringben(\"abrakadabra\", \"d\") == True\ndef test_kereses_a_listaban():\n    assert kereses_a_listaban([-7, -4, 9, -4, -8, 3, 1, 0], -7) == 0\n    assert kereses_a_listaban([-7, -4, 9, -4, -8, 3, 1, 0], 2) is None\ndef test_kereses_a_stringben():\n    assert kereses_a_stringben(\"abrakadabra\", \"a\") == 0\n    assert kereses_a_stringben(\"abrakadabra\", \"s\") is None\ndef test_parosok_kivalogatasa():",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_kereses_a_listaban",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_kereses_a_listaban():\n    assert kereses_a_listaban([-7, -4, 9, -4, -8, 3, 1, 0], -7) == 0\n    assert kereses_a_listaban([-7, -4, 9, -4, -8, 3, 1, 0], 2) is None\ndef test_kereses_a_stringben():\n    assert kereses_a_stringben(\"abrakadabra\", \"a\") == 0\n    assert kereses_a_stringben(\"abrakadabra\", \"s\") is None\ndef test_parosok_kivalogatasa():\n    assert parosok_kivalogatasa([7, 4, 9, 4, 8, 3, 1, 12, 0]) == [4, 4, 8, 12, 0]\ndef test_paratlanok_kivalogatasa():\n    assert paratlanok_kivalogatasa([7, 4, 9, 4, 8, 3, 1, 12, 0]) == [7, 9, 3, 1]",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_kereses_a_stringben",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_kereses_a_stringben():\n    assert kereses_a_stringben(\"abrakadabra\", \"a\") == 0\n    assert kereses_a_stringben(\"abrakadabra\", \"s\") is None\ndef test_parosok_kivalogatasa():\n    assert parosok_kivalogatasa([7, 4, 9, 4, 8, 3, 1, 12, 0]) == [4, 4, 8, 12, 0]\ndef test_paratlanok_kivalogatasa():\n    assert paratlanok_kivalogatasa([7, 4, 9, 4, 8, 3, 1, 12, 0]) == [7, 9, 3, 1]\ndef test_pozitivok_kivalogatasa():\n    assert pozitivok_kivalogatasa([7, 4, 9, -4, -8, 3, 1, 12, 0]) == [7, 4, 9, 3, 1, 12]\ndef test_negativok_kivalogatasa():",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_parosok_kivalogatasa",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_parosok_kivalogatasa():\n    assert parosok_kivalogatasa([7, 4, 9, 4, 8, 3, 1, 12, 0]) == [4, 4, 8, 12, 0]\ndef test_paratlanok_kivalogatasa():\n    assert paratlanok_kivalogatasa([7, 4, 9, 4, 8, 3, 1, 12, 0]) == [7, 9, 3, 1]\ndef test_pozitivok_kivalogatasa():\n    assert pozitivok_kivalogatasa([7, 4, 9, -4, -8, 3, 1, 12, 0]) == [7, 4, 9, 3, 1, 12]\ndef test_negativok_kivalogatasa():\n    assert negativok_kivalogatasa([7, 4, 9, -4, -8, 3, 1, 12, 0]) == [-4, -8]\ndef test_lista_atlag():\n    assert pytest.approx(lista_atlag([1, 2, 3, 4, 5, 6])) == 3.5",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_paratlanok_kivalogatasa",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_paratlanok_kivalogatasa():\n    assert paratlanok_kivalogatasa([7, 4, 9, 4, 8, 3, 1, 12, 0]) == [7, 9, 3, 1]\ndef test_pozitivok_kivalogatasa():\n    assert pozitivok_kivalogatasa([7, 4, 9, -4, -8, 3, 1, 12, 0]) == [7, 4, 9, 3, 1, 12]\ndef test_negativok_kivalogatasa():\n    assert negativok_kivalogatasa([7, 4, 9, -4, -8, 3, 1, 12, 0]) == [-4, -8]\ndef test_lista_atlag():\n    assert pytest.approx(lista_atlag([1, 2, 3, 4, 5, 6])) == 3.5\n    assert lista_atlag([]) is None\ndef test_faktorialis():",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_pozitivok_kivalogatasa",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_pozitivok_kivalogatasa():\n    assert pozitivok_kivalogatasa([7, 4, 9, -4, -8, 3, 1, 12, 0]) == [7, 4, 9, 3, 1, 12]\ndef test_negativok_kivalogatasa():\n    assert negativok_kivalogatasa([7, 4, 9, -4, -8, 3, 1, 12, 0]) == [-4, -8]\ndef test_lista_atlag():\n    assert pytest.approx(lista_atlag([1, 2, 3, 4, 5, 6])) == 3.5\n    assert lista_atlag([]) is None\ndef test_faktorialis():\n    assert faktorialis(0) == 1\n    assert faktorialis(5) == 120",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_negativok_kivalogatasa",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_negativok_kivalogatasa():\n    assert negativok_kivalogatasa([7, 4, 9, -4, -8, 3, 1, 12, 0]) == [-4, -8]\ndef test_lista_atlag():\n    assert pytest.approx(lista_atlag([1, 2, 3, 4, 5, 6])) == 3.5\n    assert lista_atlag([]) is None\ndef test_faktorialis():\n    assert faktorialis(0) == 1\n    assert faktorialis(5) == 120",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_lista_atlag",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_lista_atlag():\n    assert pytest.approx(lista_atlag([1, 2, 3, 4, 5, 6])) == 3.5\n    assert lista_atlag([]) is None\ndef test_faktorialis():\n    assert faktorialis(0) == 1\n    assert faktorialis(5) == 120",
+        "detail": "test_p2",
+        "documentation": {}
+    },
+    {
+        "label": "test_faktorialis",
+        "kind": 2,
+        "importPath": "test_p2",
+        "description": "test_p2",
+        "peekOfCode": "def test_faktorialis():\n    assert faktorialis(0) == 1\n    assert faktorialis(5) == 120",
+        "detail": "test_p2",
+        "documentation": {}
+    }
+]
